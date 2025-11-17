@@ -1,13 +1,7 @@
 import { motion } from "framer-motion";
 import { FaChess, FaBasketballBall, FaBiking, FaGamepad } from "react-icons/fa";
 import { useState, useEffect } from "react";
-import aboutme1 from "../assets/aboutme1.jpg";
-import aboutme2 from "../assets/aboutme2.jpg";
-import aboutme3 from "../assets/aboutme3.jpg";
-import aboutme4 from "../assets/aboutme4.jpg";
-
-const images = [aboutme1, aboutme2, aboutme3, aboutme4];
-
+const images = ["/assets/aboutme1.jpg", "/assets/aboutme2.jpg", "/assets/aboutme3.jpg", "/assets/aboutme4.jpg"];
 
 export default function AboutMe() {
   const [currentImage, setCurrentImage] = useState(0);
@@ -15,7 +9,7 @@ export default function AboutMe() {
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentImage((prev) => (prev + 1) % images.length);
-    }, 3000); // Change image every 3 seconds
+    }, 3000); 
 
     return () => clearInterval(timer);
   }, []);
@@ -193,4 +187,6 @@ export default function AboutMe() {
     </section>
   );
 }
+
+
 
