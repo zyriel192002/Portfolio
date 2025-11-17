@@ -4,7 +4,7 @@ import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaCode, FaPalette, FaServer, FaDow
 import { useTheme } from "../contexts/ThemeContext";
 import profilePicDark from "../assets/profile 1.png";
 import profilePicLight from "../assets/profile.jpg";
-import resume from "../assets/resume.pdf";
+
 
 export default function Home() {
   const { isDarkMode } = useTheme();
