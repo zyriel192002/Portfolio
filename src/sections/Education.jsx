@@ -34,7 +34,7 @@ export default function Education() {
       school: "Batasan Hills National High School",
       location: "Quezon City, Philippines",
       year: "2015 - 2019",
-      description: "Completed junior high school education with focus on core subjects with specialization of information communication and technology. Transferred to Muntinluoa National High School Tunasan Annex to complete junior high school.",
+      description: "Completed junior high school education with focus on core subjects with specialization of information communication and technology. Transferred to Muntinlupa National High School Tunasan Annex to complete junior high school.",
       achievements: [
         "Academic Excellence Award",
         "Consistent Honor Student"
