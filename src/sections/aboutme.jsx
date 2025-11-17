@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { FaChess, FaBasketballBall, FaBiking, FaGamepad } from "react-icons/fa";
 import { useState, useEffect } from "react";
-const images = ["/assets/aboutme1.jpg", "/assets/aboutme2.jpg", "/assets/aboutme3.jpg", "/assets/aboutme4.jpg"];
+const images = ["/Portfolio/assets/aboutme1.jpg", "/Portfolio/assets/aboutme2.jpg", "/Portfolio/assets/aboutme3.jpg", "/Portfolio/assets/aboutme4.jpg"];
 
 export default function AboutMe() {
   const [currentImage, setCurrentImage] = useState(0);
