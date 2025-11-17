@@ -8,7 +8,7 @@ export default function Education() {
       school: "Lyceum of Alabang",
       location: "Muntinlupa, Philippines",
       year: "2021 - 2025",
-      description: "Focused on software development using Java, VB.NET, database management with SQL Server, and system analysis. Completed various case studies and capstone projects including desktop applications and database-driven systems.",
+      description: "Focused on software development using Java, VB.NET with Database Management and system analysis. Completed various case studies and capstone projects including desktop applications and database systems.",
       achievements: [
         "Special Acadamic Excellence Award",
         "Book Keeping National Certificate III",
