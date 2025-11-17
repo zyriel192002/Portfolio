@@ -14,37 +14,37 @@ export default function Skill() {
       name: "HTML5",
       icon: <FaHtml5 className="text-3xl sm:text-4xl" />,
       description: "Semantic markup, accessibility, and modern web standards.",
-      percentage: 60
+      percentage: 50
     },
     {
       name: "CSS3",
       icon: <FaCss3 className="text-3xl sm:text-4xl" />,
       description: "Responsive design, animations, and modern layout techniques.",
-      percentage: 60
+      percentage: 50
     },
     {
       name: "Tailwind CSS",
       icon: <SiTailwindcss className="text-3xl sm:text-4xl" />,
       description: "Utility-first CSS framework for rapid UI development.",
-      percentage: 60
+      percentage: 45
     },
     {
       name: "PHP",
       icon: <FaPhp className="text-3xl sm:text-4xl" />,
       description: "Server-side scripting, web development, and database integration.",
-      percentage: 60
+      percentage: 55
     },
     {
       name: "Laravel",
       icon: <SiLaravel className="text-3xl sm:text-4xl" />,
       description: "PHP framework for elegant web application development.",
-      percentage: 60
+      percentage: 55
     },
     {
       name: "VB.NET",
       icon: <SiDotnet className="text-3xl sm:text-4xl" />,
       description: "Windows application development and .NET framework.",
-      percentage: 45
+      percentage: 60
     },
     {
       name: "MySQL",
