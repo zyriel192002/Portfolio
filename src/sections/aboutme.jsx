@@ -1,14 +1,7 @@
 import { motion } from "framer-motion";
 import { FaChess, FaBasketballBall, FaBiking, FaGamepad } from "react-icons/fa";
 import { useState, useEffect } from "react";
-
-// Placeholder images - replace with actual image paths
-const images = [
-  "/src/assets/aboutme1.jpg", 
-  "/src/assets/aboutme2.jpg",
-  "/src/assets/aboutme3.jpg",
-  "/src/assets/aboutme4.jpg"
-];
+const images = ["/assets/aboutme1.jpg", "/assets/aboutme2.jpg", "/assets/aboutme3.jpg", "/assets/aboutme4.jpg"];
 
 export default function AboutMe() {
   const [currentImage, setCurrentImage] = useState(0);
@@ -194,3 +187,4 @@ export default function AboutMe() {
     </section>
   );
 }
+
