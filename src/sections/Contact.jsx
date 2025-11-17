@@ -47,7 +47,7 @@ export default function Contact() {
 
             <div className="space-y-4">
               <motion.a
-                href="https://facebook.com/yourprofile"
+                href="https://www.facebook.com/johnzyriel.luciano"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 p-4 bg-gray-800 bg-opacity-50 backdrop-blur-sm border border-gray-700 rounded-xl hover:bg-red-600 hover:border-red-500 transition-all duration-300 dark:bg-gray-200 dark:bg-opacity-50 dark:border-gray-300 dark:hover:bg-red-600 dark:hover:border-red-500"
@@ -59,7 +59,7 @@ export default function Contact() {
               </motion.a>
 
               <motion.a
-                href="https://instagram.com/yourprofile"
+                href="https://www.instagram.com/johnzyrielluciano"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 p-4 bg-gray-800 bg-opacity-50 backdrop-blur-sm border border-gray-700 rounded-xl hover:bg-red-600 hover:border-red-500 transition-all duration-300 dark:bg-gray-200 dark:bg-opacity-50 dark:border-gray-300 dark:hover:bg-red-600 dark:hover:border-red-500"
@@ -71,7 +71,7 @@ export default function Contact() {
               </motion.a>
 
               <motion.a
-                href="https://github.com/yourusername"
+                href="https://github.com/zyriel192002"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 p-4 bg-gray-800 bg-opacity-50 backdrop-blur-sm border border-gray-700 rounded-xl hover:bg-red-600 hover:border-red-500 transition-all duration-300 dark:bg-gray-200 dark:bg-opacity-50 dark:border-gray-300 dark:hover:bg-red-600 dark:hover:border-red-500"
