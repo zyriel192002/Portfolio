@@ -3,7 +3,7 @@ import { TypeAnimation } from "react-type-animation";
 import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaCode, FaPalette, FaServer, FaDownload } from "react-icons/fa";
 import { useTheme } from "../contexts/ThemeContext";
 import profilePicDark from "../assets/profile 1.png";
-import profilePicLight from "../assets/profile.jpg";
+import profilePicLight from "../assets/profile 1.png";
 
 
 export default function Home() {
