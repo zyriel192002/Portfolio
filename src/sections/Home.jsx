@@ -2,8 +2,8 @@ import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaCode, FaPalette, FaServer, FaDownload } from "react-icons/fa";
 import { useTheme } from "../contexts/ThemeContext";
-import profilePicDark from "../assets/profile 1.png";
-import profilePicLight from "../assets/profile 1.png";
+import profilePicDark from "../assets/profile.jpg";
+import profilePicLight from "../assets/profile.jpg";
 
 
 export default function Home() {
@@ -62,7 +62,7 @@ export default function Home() {
             whileTap={{ scale: 0.95 }}
           >
             <FaCode className="mr-4 text-red-400 text-2xl sm:text-3xl lg:text-4xl dark:text-red-600" />
-            Web Developer
+            Information Technology
           </motion.div>
         </motion.div>
         <motion.p
@@ -71,7 +71,8 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1.0, duration: 1 }}
         >
-          Passionate web developer creating innovative digital experiences with modern technologies.
+          I'm a passionate information technology individual who loves to explore the world of technology and create innovative solutions. With a strong background in web development, I enjoy building responsive and user-friendly websites that make a positive impact.
+         
         </motion.p>
 
         {}
