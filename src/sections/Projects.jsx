@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { FaExternalLinkAlt, FaGithub, FaCode, FaPalette, FaServer, FaMobile } from "react-icons/fa";
 import loveFrozenImg from "../assets/lovefrozedproducts.png";
-import clinicImg from "../assets/clinicmanagement.png";
+import clinicImg from "../assets/recordsmanagementsystem.png";
 import assetImg from "../assets/assetmanagement.png";
 import studentgrade from "../assets/studentgrade.png";
 import inventory from "../assets/sbtinventory.png";
@@ -19,11 +19,11 @@ export default function Projects() {
     },
     {
       title: "Clinic Records Management System",
-      description: "A desktop application for managing patient records, appointments, and medical history in a clinic setting. Built using VB.NET and MySQL with a user-friendly interface.",
-      technologies: ["VB.NET", "MySQL", "Windows Forms"],
+      description: "A web application for managing patient records, appointments, and medical history in a clinic setting. Built using VB.NET and MySQL with a user-friendly interface.",
+      technologies: ["PHP, MySQL", "Tailwind CSS", "JavaScript"],
       image: clinicImg,
       github: "https://github.com/username/clinic-records-management",
-      category: "Desktop App"
+      category: "Web Application"
     },
     {
       title: "Asset Management System",
