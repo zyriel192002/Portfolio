@@ -14,7 +14,8 @@ export default function Education() {
         "Book Keeping National Certificate III",
         "Visual Graphics Design National Certificate III",
         "Electronic Products Assembly and Servicing National Certificate II",
-        "Computer System Servicing National Certificate II"
+        "Computer System Servicing National Certificate II",
+        "CCS Day 2026 - Quiz Bee First Place Winner"
       ]
     },
     {
